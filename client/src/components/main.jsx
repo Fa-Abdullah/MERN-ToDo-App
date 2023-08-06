@@ -374,6 +374,13 @@ const Main = props => {
           </div>
             
         </div>
+        <style>
+          {`
+          body{
+            background-color:${conBack}
+          }
+          `}
+        </style>
     </React.Fragment>
   )
 }

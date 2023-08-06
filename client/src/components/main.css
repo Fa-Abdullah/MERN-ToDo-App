@@ -110,11 +110,8 @@
         }
         
         .cont{
-            min-height: 140vh;
             min-width: 100%;
             height: fit-content;
-            /* max-height: 500vh;
-            height: 120vh; */
         }
         
         input[type="checkbox"] {
