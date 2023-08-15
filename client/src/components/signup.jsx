@@ -35,10 +35,10 @@ const Signup = () => {
 
         try{
 
-            await axios.post(`${process.env.REACT_APP_HOST}:${process.env.REACT_APP_PORT}/signup`,{
+            await axios.post('https://mern-todo-list-85ni.onrender.com/signup',{
                 email,password,phone,name,birthYear
             })
-            .then(res=>{
+            .then(res=>{ 
                 if(res.data === "exist"){
                     alert("User already exists")
                 }
